@@ -1,0 +1,51 @@
+h1{
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;
+
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 75px;
+    font-family: "Courier Prime", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    text-align: center;
+}
+.navbar a {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;
+
+    text-align: center;
+    width: 50%;
+    border-radius: 75px;
+    font-family: "Courier Prime", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#footer-info{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+
+}
+

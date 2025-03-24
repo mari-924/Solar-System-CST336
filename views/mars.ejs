@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars</title>
+    <link rel="stylesheet" href="/spaceObject.css">
+</head>
+<body>
+    <h1>Mars</h1><br><br>
+
+    <%- include('partials/nav-bar.ejs')%>
+    <br><br>
+    <img src="<%=mars.image%>" alt="mars" width="25%" length="25%">
+    <p id="info"><%=mars.description%></p>
+
+    <%- include('partials/footer.ejs')%>
+
+</body>
+</html>

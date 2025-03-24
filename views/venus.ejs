@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venus</title>
+    <link rel="stylesheet" href="/spaceObject.css">
+</head>
+<body>
+    <h1>Venus</h1><br><br>
+
+    <%- include('partials/nav-bar.ejs')%>
+    <br><br>
+    <img src="<%=venus.image%>" alt="venus" width="30%" length="30%">
+    <p id="info"><%=venus.description%></p>
+    <%- include('partials/footer.ejs')%>
+
+</body>
+</html>

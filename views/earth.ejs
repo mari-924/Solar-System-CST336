@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth</title>
+    <link rel="stylesheet" href="/spaceObject.css">
+</head>
+<body class="content">
+    <div>
+        <h1>Earth</h1><br><br>
+        <%- include('partials/nav-bar.ejs')%>
+        <br><br>
+        <img src="<%=earth.image%>" alt="earth" width="50%" length="50%">
+        <p id="info"><%=earth.description%></p>
+        <br><br>
+        <%- include('partials/footer.ejs')%>
+    </div>
+
+
+    
+</body>
+</html>

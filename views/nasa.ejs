@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA</title>
+    <link rel="stylesheet" href="/nasa.css">
+</head>
+<body>
+    <h1>Nasa Image Of The Day</h1>
+    <p class="pic-info"><b>Title:</b> <%=nasa.title%></h1>
+    <p class="pic-info"><b>Date:</b> <%=nasa.date%></p>
+    <br>
+
+    <%- include('partials/nav-bar.ejs')%>
+    <br><br>
+    <img src="<%=nasa.hdurl%>" alt="nasa" width="50%" length="50%">
+    <p id="info"><%=nasa.explanation%></p>
+    <br>
+    <form action="/nasaCustom">
+        <p id="GetPic"><b>Get A NASA picture of the day</b></p>
+        <input type="text" name="year" placeholder="Year">
+        <select name="month">
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+        </select>
+        <input type="text" name="day" placeholder="Day">
+        <button>Get Image</button>
+    </form>
+    <%- include('partials/footer.ejs')%>
+
+    
+</body>
+</html>

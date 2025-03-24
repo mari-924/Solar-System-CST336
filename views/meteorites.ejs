@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteorites</title>
+    <link rel="stylesheet" href="/spaceObject.css">
+
+</head>
+<body>
+    <h1>Meteorites</h1><br><br>
+    <%- include('partials/nav-bar.ejs')%>
+    <br><br>
+    <img src="<%=object.image%>" alt="Comets" width="50%" length="50%"><br><br>
+    <p id="info"><%=object.def%></p>
+    <br><br>
+    <%- include('partials/footer.ejs')%>
+    
+</body>
+</html>
